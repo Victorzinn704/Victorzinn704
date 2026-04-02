@@ -31,7 +31,7 @@ Desk Imperial e um sistema open source e gratuito para gestao comercial, com ope
 
 O projeto foi criado para tirar o comerciante brasileiro da planilha, com recursos como PDV, financeiro, calendario comercial, folha de pagamento, portfolio de produtos e operacoes em tempo real.
 
-## Stacks usadas neste projeto (com logos)
+## Stacks usadas neste projeto:
 
 ### Frontend
 
