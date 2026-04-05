@@ -88,7 +88,7 @@ Também mantenho contato ativo com ecossistemas como `Google Cloud` e `Azure`, a
 </details>
 
 <details>
-<summary><strong>Minhas principais skills hoje</strong></summary>
+<summary><strong>Minhas skills e base técnica</strong></summary>
 
 - **Aprendizado rápido com execução real** — aprendo melhor construindo, validando e iterando em cima de produto vivo.
 - **Ownership técnico** — gosto de entender o sistema por inteiro e assumir responsabilidade por estabilidade, clareza e evolução.
@@ -96,6 +96,7 @@ Também mantenho contato ativo com ecossistemas como `Google Cloud` e `Azure`, a
 - **Capacidade de aprofundamento** — quando um tema exige mais, eu entro fundo em debugging, qualidade, arquitetura e operação.
 - **Disciplina para melhorar código existente** — tenho paciência para reduzir ruído, organizar backlog técnico e amadurecer base já grande.
 - **Comunicação técnica escrita** — consigo transformar decisões e aprendizados em documentação útil, não só em código.
+- **Base em múltiplas linguagens** — além do que uso hoje no projeto, também mantenho repertório em `Python`, `Java`, `JavaScript`, `C`, `C#`, `C++`, `HTML` e `CSS`.
 - **Construção progressiva sem arrogância** — prefiro consistência, evidência e evolução contínua a pose de senioridade vazia.
 
 </details>
@@ -125,7 +126,7 @@ My work today is focused on real product execution: backend architecture, fronte
 
 ## Coleção de stacks
 
-### Frontend e experiência
+### Stacks do projeto — Frontend e experiência
 
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
@@ -139,7 +140,7 @@ My work today is focused on real product execution: backend architecture, fronte
 [![Canvas Confetti](https://img.shields.io/badge/Canvas_Confetti-FF6A00?style=for-the-badge&logo=javascript&logoColor=white)](https://www.npmjs.com/package/canvas-confetti)
 [![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
 
-### Backend, dados e tempo real
+### Stacks do projeto — Backend, dados e tempo real
 
 [![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://nestjs.com)
 [![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io)
@@ -150,7 +151,7 @@ My work today is focused on real product execution: backend architecture, fronte
 [![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io)
 [![CSRF Protection](https://img.shields.io/badge/CSRF-Protection-7C3AED?style=for-the-badge)](https://owasp.org/www-community/attacks/csrf)
 
-### Arquitetura, plataforma e cloud
+### Stacks do projeto — Arquitetura, plataforma e cloud
 
 [![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=for-the-badge&logo=turborepo&logoColor=white)](https://turbo.build/repo)
 [![npm Workspaces](https://img.shields.io/badge/npm_Workspaces-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://docs.npmjs.com/cli/v10/using-npm/workspaces)
@@ -161,7 +162,7 @@ My work today is focused on real product execution: backend architecture, fronte
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com)
 [![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com)
 
-### Qualidade, testes, segurança e observabilidade
+### Stacks do projeto — Qualidade, testes, segurança e observabilidade
 
 [![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)](https://jestjs.io)
 [![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)](https://vitest.dev)
@@ -175,3 +176,14 @@ My work today is focused on real product execution: backend architecture, fronte
 [![Multi-tenant](https://img.shields.io/badge/Multi--tenant-Isolation-1D4ED8?style=for-the-badge)](https://en.wikipedia.org/wiki/Multitenancy)
 [![Admin PIN](https://img.shields.io/badge/Admin%20PIN-Rate%20Limited-D97706?style=for-the-badge)](https://redis.io)
 [![Cache Invalidation](https://img.shields.io/badge/Cache-Invalidation-059669?style=for-the-badge)](https://redis.io)
+
+### Minhas stacks — Linguagens e base técnica pessoal
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![C](https://img.shields.io/badge/C-00599C?style=for-the-badge)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://isocpp.org)
+[![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)](https://learn.microsoft.com/dotnet/csharp/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
