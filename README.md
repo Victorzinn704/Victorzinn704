@@ -45,6 +45,7 @@ O projeto foi criado para tirar o comerciante brasileiro da planilha, com recurs
 [![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)](https://zod.dev)
 [![Lucide](https://img.shields.io/badge/Lucide-111111?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev)
 [![Canvas Confetti](https://img.shields.io/badge/Canvas_Confetti-FF6A00?style=for-the-badge&logo=javascript&logoColor=white)](https://www.npmjs.com/package/canvas-confetti)
+[![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
 
 ### Backend
 
@@ -56,6 +57,7 @@ O projeto foi criado para tirar o comerciante brasileiro da planilha, com recurs
 [![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white)](https://socket.io)
 [![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io)
 [![CSRF Protection](https://img.shields.io/badge/CSRF-Protection-7C3AED?style=for-the-badge)](https://owasp.org/www-community/attacks/csrf)
+[![Neon](https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=neon&logoColor=00110A)](https://neon.com)
 
 ### Arquitetura e Infra
 
@@ -63,6 +65,10 @@ O projeto foi criado para tirar o comerciante brasileiro da planilha, com recurs
 [![npm Workspaces](https://img.shields.io/badge/npm_Workspaces-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://docs.npmjs.com/cli/v10/using-npm/workspaces)
 [![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)](https://railway.com)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com)
+[![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)](https://www.oracle.com/cloud/)
+[![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com)
+[![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://kernel.org)
 
 ### Qualidade, testes e seguranca
 
@@ -74,6 +80,10 @@ O projeto foi criado para tirar o comerciante brasileiro da planilha, com recurs
 [![Multi-tenant](https://img.shields.io/badge/Multi--tenant-Isolation-1D4ED8?style=for-the-badge)](https://en.wikipedia.org/wiki/Multitenancy)
 [![Admin PIN](https://img.shields.io/badge/Admin%20PIN-Rate%20Limited-D97706?style=for-the-badge)](https://redis.io)
 [![Cache Invalidation](https://img.shields.io/badge/Cache-Invalidation-059669?style=for-the-badge)](https://redis.io)
+[![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)](https://www.sonarsource.com/products/sonarqube/)
+[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com)
+[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://prometheus.io)
+[![OSS Observability](https://img.shields.io/badge/OSS-Observability-111827?style=for-the-badge)](https://grafana.com/oss/)
 
 ## Skills
 
@@ -115,3 +125,4 @@ I built Desk Imperial as an open-source B2B SaaS platform to help small and medi
 The project combines real-time POS operations, finance, payroll, product portfolio management, and commercial planning in a single platform.
 
 My mission with Desk Imperial is simple: help Brazilian merchants move beyond spreadsheets with accessible, practical, and reliable technology.
+
