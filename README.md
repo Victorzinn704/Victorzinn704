@@ -74,12 +74,6 @@ No backend, eu trabalho na regra de negócio, consistência da operação e esta
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white)](https://socket.io)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com)
-[![C](https://img.shields.io/badge/C-00599C?style=for-the-badge)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://isocpp.org)
-[![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)](https://learn.microsoft.com/dotnet/csharp/)
-
 ### Infra
 
 Na infraestrutura, eu penso em como o sistema sobe, roda, evolui e pode ser operado com mais autonomia. Isso envolve monorepo, ambientes, containers, cloud e a transição para uma base mais madura de runtime e observabilidade.
@@ -155,7 +149,7 @@ Em testes e qualidade, eu trabalho para garantir que o sistema continue evoluind
 - **Capacidade de aprofundamento** — quando um tema exige mais, eu entro fundo em debugging, qualidade, arquitetura e operação.
 - **Disciplina para melhorar código existente** — tenho paciência para reduzir ruído, organizar backlog técnico e amadurecer base já grande.
 - **Comunicação técnica escrita** — consigo transformar decisões e aprendizados em documentação útil, não só em código.
-- **Base em múltiplas linguagens** — além do que uso hoje no projeto, também mantenho repertório em `Python`, `Java`, `JavaScript`, `C`, `C#`, `C++`, `HTML` e `CSS`.
+- **Base técnica complementar** — além do que uso hoje no projeto, também mantenho repertório em fundamentos de desenvolvimento web e construção de software além da stack principal do Desk Imperial.
 - **Construção progressiva sem arrogância** — prefiro consistência, evidência e evolução contínua a pose de senioridade vazia.
 
 </details>
