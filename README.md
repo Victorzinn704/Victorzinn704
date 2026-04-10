@@ -158,7 +158,7 @@ Em testes e qualidade, eu trabalho para garantir que o sistema continue evoluind
 
 Quero crescer em ambientes em que engenharia, produto e aprendizado caminhem juntos.
 
-Tenho interesse especial por oportunidades de **estágio** ou **início de carreira** em times que valorizem:
+Tenho interesse especial por oportunidades de **Desenvolvimento** em times que valorizem:
 
 - engenharia full-stack com responsabilidade real
 - qualidade contínua e redução de regressão
