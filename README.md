@@ -1,178 +1,355 @@
-# João Victor de Moraes da Cruz
+<!-- =================================================================== -->
+<!-- HEADER                                                               -->
+<!-- =================================================================== -->
 
-Saquarema, RJ, Brasil  
-Estudante de Engenharia de Software | Fundador do Desk Imperial
+<h1 align="center">João Victor de Moraes da Cruz</h1>
 
-[![Open Source](https://img.shields.io/badge/Open%20Source-Desk%20Imperial-blue?style=for-the-badge&logo=github)](https://github.com/Victorzinn704/Desk-Imperial-Open-Source)
-[![Website](https://img.shields.io/badge/App-app.deskimperial.online-black?style=for-the-badge&logo=vercel)](https://app.deskimperial.online)
-[![API](https://img.shields.io/badge/API-api.deskimperial.online-0A66C2?style=for-the-badge&logo=fastapi)](https://api.deskimperial.online)
+<p align="center">
+  <sub>Engenharia de Software · Founder do <b>Desk Imperial</b> · Saquarema, RJ — Brasil</sub>
+</p>
 
-## Sobre mim
+<p align="center">
+  <a href="https://github.com/Victorzinn704/Desk-Imperial-Open-Source"><img alt="Desk Imperial Open Source" src="https://img.shields.io/badge/Open%20Source-Desk%20Imperial-0A66C2?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://app.deskimperial.online"><img alt="App" src="https://img.shields.io/badge/App-app.deskimperial.online-111827?style=for-the-badge&logo=vercel&logoColor=white"></a>
+  <a href="https://api.deskimperial.online"><img alt="API" src="https://img.shields.io/badge/API-api.deskimperial.online-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"></a>
+</p>
 
-Sou estudante de Engenharia de Software e construo software orientado a problema real.
+<p align="center">
+  <img alt="profile views" src="https://komarev.com/ghpvc/?username=Victorzinn704&style=flat-square&color=0A66C2">
+  <img alt="github followers" src="https://img.shields.io/github/followers/Victorzinn704?style=flat-square&color=111827">
+  <img alt="github stars" src="https://img.shields.io/github/stars/Victorzinn704?style=flat-square&color=F5A623">
+</p>
 
-Hoje, meu principal projeto é o **Desk Imperial**, uma plataforma open source de gestão comercial feita para pequenos e médios comerciantes brasileiros. Nele, eu atuo de ponta a ponta: produto, arquitetura, backend, frontend, tempo real, testes, observabilidade, deploy e documentação.
+---
 
-Não tento parecer especialista em tudo. Prefiro me apresentar por evidências: produto em produção, monorepo full-stack, operação em tempo real, auditoria com SonarQube e um volume de código que já exige disciplina de engenharia de verdade.
+## Sobre
 
-## Projeto principal — Desk Imperial
+Estudante de Engenharia de Software construindo software orientado a problema real. Prefiro me apresentar por evidência — produto em produção, operação em tempo real e uma base de código que já exige disciplina de engenharia — do que por pose de senioridade.
 
-O Desk Imperial nasceu para tirar o comerciante brasileiro da planilha e concentrar operação e gestão no mesmo sistema.
+O **Desk Imperial** concentra hoje a maior parte do meu tempo, mas não é o único projeto: mantenho também o **RH Insights**, uma plataforma multi-tenant de gestão de pessoas com IA Gemini integrada, um tradutor de áudio em tempo real em **Python + Rust com ASR na GPU**, e repositórios de fundamentos para ampliar repertório além da stack principal.
 
-Hoje, o projeto reúne, no mesmo produto:
+---
 
-- PDV e comandas em tempo real
-- financeiro por período
-- folha de pagamento
-- portfólio de produtos e combos
-- calendário comercial
-- operação mobile para dono e equipe
-- observabilidade OSS e trilha de qualidade contínua
+<!-- =================================================================== -->
+<!-- HERO: DESK IMPERIAL                                                  -->
+<!-- =================================================================== -->
 
-**Links principais**
+## Projeto principal
 
-- App: https://app.deskimperial.online
-- API: https://api.deskimperial.online
-- Open source: https://github.com/Victorzinn704/Desk-Imperial-Open-Source
+<table>
+<tr>
+<td width="58%" valign="top">
 
-## Evidências de execução
+### Desk Imperial — Gestão comercial open source
 
-Esses são os sinais que melhor representam como eu trabalho hoje:
+Plataforma full-stack para pequenos e médios comerciantes brasileiros.
+Tira o dono da planilha e concentra **operação ao vivo** e **gestão do negócio** no mesmo produto.
 
-- monorepo full-stack com `apps/api`, `apps/web`, `packages` compartilhados e documentação técnica organizada
-- cerca de **50 mil linhas de código analisadas no SonarQube**, com trilha de backlog técnico e gate de qualidade
-- mais de **700 testes no backend** e **130 testes no frontend**, com validação de lint, typecheck, test e build
-- **16 módulos de domínio na API** e **70+ arquivos de documentação** cobrindo arquitetura, produto, segurança e operação
-- fluxo em **tempo real com Socket.IO + Redis**, mantendo equipe e operação sincronizadas
-- app web com foco em **PWA**, uso mobile e experiência operacional para dono e funcionário
+**Módulos em produção**
+PDV e comandas em tempo real · financeiro por período · folha de pagamento automática · portfólio e combos · mapa de vendas · calendário comercial · operação mobile · LGPD e admin PIN.
 
-## Como eu construo o projeto
+**Sinais técnicos**
+- **~50k linhas** auditadas no SonarQube, com gate de qualidade e backlog técnico
+- **700+ testes** no backend · **130+ testes** no frontend · lint, typecheck e build no fluxo padrão
+- **16 módulos de domínio** na API · **70+ arquivos** de documentação técnica
+- Tempo real com **Socket.IO + Redis** · cache, invalidação e multi-tenant isolado
+- **PWA** com foco em operação mobile para dono e funcionário
 
-### Frontend
+</td>
+<td width="42%" valign="top">
 
-No frontend, eu foco em experiência, fluidez e operação real. O objetivo não é só deixar a interface bonita, mas criar telas que ajudem o usuário a vender, acompanhar a operação e tomar decisão com clareza.
+<p>
+  <a href="https://app.deskimperial.online"><img src="https://img.shields.io/badge/▶_App_ao_vivo-111827?style=for-the-badge&logo=vercel&logoColor=white"></a>
+  <a href="https://api.deskimperial.online"><img src="https://img.shields.io/badge/API-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"></a>
+  <a href="https://github.com/Victorzinn704/Desk-Imperial-Open-Source"><img src="https://img.shields.io/badge/Repositório-0A66C2?style=for-the-badge&logo=github&logoColor=white"></a>
+</p>
 
-[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
-[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion)
-[![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)](https://zod.dev)
-[![Lucide](https://img.shields.io/badge/Lucide-111111?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev)
-[![Hello Pangea DnD](https://img.shields.io/badge/Hello%20Pangea%20DnD-61DAFB?style=for-the-badge&logo=react&logoColor=000000)](https://github.com/hello-pangea/dnd)
-[![React Big Calendar](https://img.shields.io/badge/React_Big_Calendar-0F172A?style=for-the-badge&logo=googlecalendar&logoColor=white)](https://github.com/jquense/react-big-calendar)
-[![Canvas Confetti](https://img.shields.io/badge/Canvas_Confetti-FF6A00?style=for-the-badge&logo=javascript&logoColor=white)](https://www.npmjs.com/package/canvas-confetti)
-[![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
+**Camada principal**
 
-### Backend
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js_22-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white)
 
-No backend, eu trabalho na regra de negócio, consistência da operação e estabilidade dos fluxos mais sensíveis do sistema. É a camada em que concentro autenticação, comandas, pedidos, produtos, consentimento e integração entre os módulos.
+**Qualidade & operação**
 
-[![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://nestjs.com)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
-[![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white)](https://socket.io)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
-### Infra
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![k6](https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat-square&logo=oracle&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
 
-Na infraestrutura, eu penso em como o sistema sobe, roda, evolui e pode ser operado com mais autonomia. Isso envolve monorepo, ambientes, containers, cloud e a transição para uma base mais madura de runtime e observabilidade.
+</td>
+</tr>
+</table>
 
-[![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=for-the-badge&logo=turborepo&logoColor=white)](https://turbo.build/repo)
-[![npm Workspaces](https://img.shields.io/badge/npm_Workspaces-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://docs.npmjs.com/cli/v10/using-npm/workspaces)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://kernel.org)
-[![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)](https://railway.com)
-[![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)](https://www.oracle.com/cloud/)
-[![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com)
-[![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com)
+---
 
-### Banco de dados
+<!-- =================================================================== -->
+<!-- OUTROS PROJETOS                                                      -->
+<!-- =================================================================== -->
 
-Na camada de dados, eu trabalho com modelagem, persistência, acesso estruturado e apoio à performance do sistema. Aqui entram o banco transacional, a camada ORM, o runtime gerenciado e o cache que sustenta partes críticas da operação.
+## Outros projetos
 
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org)
-[![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io)
-[![Neon](https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=neon&logoColor=00110A)](https://neon.com)
-[![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Observabilidade
+### RH Insights — Gestão de pessoas com IA
 
-Na observabilidade, eu uso métricas, dashboards, análise estática e trilhas de auditoria para entender o comportamento real do sistema. O foco aqui é reduzir ruído, medir gargalos e tornar a evolução mais segura.
+Plataforma multi-tenant centrada em **Recursos Humanos**, com **Google Gemini** como consultor estratégico e módulos complementares de Financeiro e Estoque. SPA serverless com foco em análise de performance e saúde corporativa.
 
-[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com)
-[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://prometheus.io)
-[![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)](https://www.sonarsource.com/products/sonarqube/)
-[![OSS Observability](https://img.shields.io/badge/OSS-Observability-111827?style=for-the-badge)](https://grafana.com/oss/)
-[![k6](https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white)](https://k6.io)
+- **Gestão de colaboradores** · cadastro completo com cargo, salário, área de atuação e status
+- **Saúde corporativa** · acompanhamento de atestados e bem-estar
+- **Performance com IA** · avaliação automatizada de perfil cruzando cargo, salário e histórico via Gemini
+- **Financeiro e Estoque** · despesas multi-moeda (BRL/USD/EUR), receitas, inventário e portfólio
+- **Consultoria AI** · chatbot que cruza contexto global e sugere planos de ação
+- **Hardening de segurança** · Firestore Rules, tenant isolation, mitigação de prompt injection, proteção contra DoS e schema pollution
+- **Observabilidade pronta para SOC** · logs estruturados para Google Cloud Logging
 
-### Segurança
+![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Gemini](https://img.shields.io/badge/Gemini_AI-8E75B2?style=flat-square&logo=google&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-Na segurança, eu procuro proteger autenticação, mutações críticas e isolamento dos dados. Isso envolve controles de sessão, validações, escopo por workspace e barreiras contra abuso operacional.
+<a href="https://github.com/Victorzinn704/New-Project">→ Ver repositório</a>
 
-[![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io)
-[![CSRF Protection](https://img.shields.io/badge/CSRF-Protection-7C3AED?style=for-the-badge)](https://owasp.org/www-community/attacks/csrf)
-[![Multi-tenant](https://img.shields.io/badge/Multi--tenant-Isolation-1D4ED8?style=for-the-badge)](https://en.wikipedia.org/wiki/Multitenancy)
-[![Admin PIN](https://img.shields.io/badge/Admin%20PIN-Rate%20Limited-D97706?style=for-the-badge)](https://redis.io)
-[![Cache Invalidation](https://img.shields.io/badge/Cache-Invalidation-059669?style=for-the-badge)](https://redis.io)
+</td>
+<td width="50%" valign="top">
 
-### Testes e qualidade de código
+### TX — Tradutor em REALTIME
 
-Em testes e qualidade, eu trabalho para garantir que o sistema continue evoluindo sem perder previsibilidade. É aqui que entram cobertura, validação automatizada, análise estática e revisão constante da base de código.
+Tradutor de áudio em tempo real para Windows 11 com **ASR local na GPU** e pipeline híbrido **Python + Rust**.
 
-[![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)](https://jestjs.io)
-[![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)](https://vitest.dev)
-[![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev)
-[![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)](https://eslint.org)
+- Captura via **WASAPI** (mic e loopback do sistema)
+- VAD em dois estágios (**WebRTC + Silero**) para descartar silêncio antes da GPU
+- Transcrição com **faster-whisper / CTranslate2** (int8_float16)
+- Tradução em 3 camadas: **OPUS-MT local** → **Argos offline** → **Google contextual**
+- **Runtime Rust** para captura, DSP e scheduler sem jitter
+- Circuit breaker, rate limiter, overlay e health dashboard
 
-## Skills
+![Python](https://img.shields.io/badge/Python_3.11-3776AB?style=flat-square&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![CTranslate2](https://img.shields.io/badge/CTranslate2-1E90FF?style=flat-square)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
-<details>
-<summary><strong>Skills úteis no projeto</strong></summary>
+<a href="https://github.com/Victorzinn704/TX-Tradutor-em-REALTIME">→ Ver repositório</a>
 
-- **Arquitetura full-stack orientada a produto** — organizar backend, frontend, contratos compartilhados e documentação pensando no uso real do sistema.
-- **Sistemas em tempo real** — projetar fluxos com `Socket.IO`, cache e invalidação para manter a operação sincronizada entre web e mobile.
-- **Modelagem de domínio** — transformar problema de negócio em regras de caixa, comanda, pedidos, combos, consentimento e portfólio.
-- **Qualidade contínua** — usar lint, typecheck, testes, build e SonarQube como parte do fluxo normal de desenvolvimento.
-- **Investigação e correção de regressões** — localizar gargalos, ruídos e bugs silenciosos sem tratar sintoma como solução definitiva.
-- **Documentação técnica** — registrar decisões, riscos, arquitetura e planos de evolução para manter o projeto sustentável.
-- **Observabilidade OSS** — estruturar métricas, alertas, dashboards e trilhas de análise para entender o comportamento real do sistema.
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### Fundamentos & experimentos
+
+Repositórios menores onde reforço base técnica fora da stack principal — algoritmos, prototipação web e primeiros passos com engenharia.
+
+- **Aula-1 / Aula-2 — Algoritmos** · exercícios estruturados em Python
+- **Xpress-site / xpress_projeto** · protótipos web em HTML/CSS
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+<a href="https://github.com/Victorzinn704?tab=repositories">→ Ver todos os repositórios</a>
+
+</td>
+</tr>
+</table>
+
+---
+
+<!-- =================================================================== -->
+<!-- STACK                                                                -->
+<!-- =================================================================== -->
+
+## Stack técnica
+
+Organizada por camada — refletindo responsabilidade técnica real no produto, não lista aleatória.
+
+<details open>
+<summary><b>Frontend</b> · experiência, fluidez e operação real</summary>
+
+<p>
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
+<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white">
+<img src="https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white">
+<img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white">
+</p>
+
+</details>
+
+<details open>
+<summary><b>Backend & runtime</b> · regra de negócio, fluxos críticos e consistência</summary>
+
+<p>
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white">
+<img src="https://img.shields.io/badge/Node.js_22-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+<img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white">
+<img src="https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=google&logoColor=white">
+</p>
+
+</details>
+
+<details open>
+<summary><b>Infraestrutura & cloud</b> · como o sistema sobe, roda e evolui</summary>
+
+<p>
+<img src="https://img.shields.io/badge/Turborepo-EF4444?style=for-the-badge&logo=turborepo&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+<img src="https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white">
+<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white">
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black">
+<img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white">
+<img src="https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
+</p>
+
+</details>
+
+<details open>
+<summary><b>Dados & cache</b> · modelagem, persistência e performance</summary>
+
+<p>
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white">
+<img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white">
+<img src="https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=neon&logoColor=00110A">
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white">
+<img src="https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black">
+</p>
+
+</details>
+
+<details open>
+<summary><b>Observabilidade & qualidade</b> · entender o sistema real, reduzir ruído</summary>
+
+<p>
+<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white">
+<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white">
+<img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white">
+<img src="https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white">
+<img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white">
+<img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white">
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white">
+<img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white">
+</p>
 
 </details>
 
 <details>
-<summary><strong>Minhas skills e base técnica</strong></summary>
+<summary><b>Segurança</b> · autenticação, sessão, isolamento e rate limiting</summary>
 
-- **Aprendizado rápido com execução real** — aprendo melhor construindo, validando e iterando em cima de produto vivo.
-- **Ownership técnico** — gosto de entender o sistema por inteiro e assumir responsabilidade por estabilidade, clareza e evolução.
-- **Pensamento de produto** — não penso só em tecnologia; penso em quem usa, por que usa e no que realmente gera valor.
-- **Capacidade de aprofundamento** — quando um tema exige mais, eu entro fundo em debugging, qualidade, arquitetura e operação.
-- **Disciplina para melhorar código existente** — tenho paciência para reduzir ruído, organizar backlog técnico e amadurecer base já grande.
-- **Comunicação técnica escrita** — consigo transformar decisões e aprendizados em documentação útil, não só em código.
-- **Base técnica complementar** — além do que uso hoje no projeto, também mantenho repertório em fundamentos de desenvolvimento web e construção de software além da stack principal do Desk Imperial.
-- **Construção progressiva sem arrogância** — prefiro consistência, evidência e evolução contínua a pose de senioridade vazia.
+<p>
+<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white">
+<img src="https://img.shields.io/badge/CSRF-Protection-7C3AED?style=for-the-badge">
+<img src="https://img.shields.io/badge/Multi--tenant-Isolation-1D4ED8?style=for-the-badge">
+<img src="https://img.shields.io/badge/Admin%20PIN-Rate%20Limited-D97706?style=for-the-badge">
+<img src="https://img.shields.io/badge/Cache-Invalidation-059669?style=for-the-badge">
+<img src="https://img.shields.io/badge/Prompt_Injection-Mitigation-8E75B2?style=for-the-badge">
+<img src="https://img.shields.io/badge/SOC_Ready-Cloud_Logging-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white">
+</p>
 
 </details>
 
-## O que eu busco agora
+---
 
-Quero crescer em ambientes em que engenharia, produto e aprendizado caminhem juntos.
+<!-- =================================================================== -->
+<!-- COMO EU TRABALHO                                                     -->
+<!-- =================================================================== -->
 
-Tenho interesse especial por oportunidades de **Desenvolvimento** em times que valorizem:
+## Como eu trabalho
 
-- engenharia full-stack com responsabilidade real
-- qualidade contínua e redução de regressão
-- produto com problema concreto para resolver
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<details>
+<summary><b>Skills aplicadas no produto</b></summary>
+
+- **Arquitetura full-stack orientada a produto** — backend, frontend, contratos e docs pensados para o uso real.
+- **Sistemas em tempo real** — fluxos com Socket.IO, cache e invalidação mantendo web e mobile sincronizados.
+- **Modelagem de domínio** — traduzir problema de negócio em regras de caixa, comanda, combos, consentimento.
+- **Qualidade contínua** — lint, typecheck, testes, build e SonarQube no fluxo padrão, não como etapa final.
+- **Investigação de regressões** — localizar gargalos e bugs silenciosos sem tratar sintoma como cura.
+- **Observabilidade OSS** — Grafana, Prometheus e trilhas de auditoria para entender o comportamento real.
+- **Documentação técnica** — decisões, riscos e planos de evolução registrados para sustentar o projeto.
+
+</details>
+
+</td>
+<td width="50%" valign="top">
+
+<details>
+<summary><b>Minha base técnica</b></summary>
+
+- **Aprendizado rápido com execução real** — aprendo construindo, validando e iterando em produto vivo.
+- **Ownership técnico** — entender o sistema por inteiro e responder por estabilidade e evolução.
+- **Pensamento de produto** — tecnologia é meio; o ponto é quem usa e o que gera valor.
+- **Capacidade de aprofundamento** — quando o tema exige, entro fundo em debugging, arquitetura e operação.
+- **Disciplina para melhorar código existente** — organizar backlog técnico e amadurecer base já grande.
+- **Comunicação técnica escrita** — decisões viram documentação, não só código.
+- **Construção progressiva sem arrogância** — consistência e evidência acima de pose de senioridade.
+
+</details>
+
+</td>
+</tr>
+</table>
+
+---
+
+<!-- =================================================================== -->
+<!-- O QUE BUSCO                                                          -->
+<!-- =================================================================== -->
+
+## O que busco agora
+
+Quero crescer em ambientes onde **engenharia, produto e aprendizado** caminhem juntos.
+Tenho interesse especial em oportunidades de **desenvolvimento** em times que valorizem:
+
+- engenharia full-stack com responsabilidade real sobre o sistema
+- qualidade contínua e redução de regressão como rotina
+- problema de produto concreto, não abstração solta
 - arquitetura, observabilidade e evolução sustentável
 
-## Resumo rápido
+---
 
-Se eu precisasse resumir meu momento atual em uma frase, seria esta:
+## Em uma frase
 
-> Sou estudante de Engenharia de Software, mas já construo e mantenho um produto full-stack real, com foco em operação, qualidade e aprendizado acelerado.
+> Estudante de Engenharia de Software que já constrói e mantém um produto full-stack em produção, com foco em operação, qualidade e aprendizado acelerado.
 
-## English summary
+---
 
-I am a Software Engineering student from Brazil and the founder of Desk Imperial, an open-source full-stack platform built for small and medium Brazilian merchants.
+<!-- =================================================================== -->
+<!-- ENGLISH                                                              -->
+<!-- =================================================================== -->
 
-My work today is focused on real product execution: backend architecture, frontend experience, real-time operations, testing, observability and continuous quality. I am still early in my career, but I already build with production responsibility and strong learning velocity.
+<details>
+<summary><b>English summary</b></summary>
+
+<br>
+
+Software Engineering student from Brazil and founder of **Desk Imperial**, an open-source full-stack platform built for small and medium Brazilian merchants.
+
+My work today is focused on real product execution: backend architecture, frontend experience, real-time operations, testing, observability and continuous quality. I also maintain side projects in Python + Rust (a GPU-accelerated real-time audio translator) and smaller repositories to keep expanding my foundations beyond the main product stack.
+
+Early in my career, but already shipping with production responsibility and strong learning velocity.
+
+</details>
