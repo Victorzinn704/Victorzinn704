@@ -5,7 +5,7 @@
 <h1 align="center">João Victor de Moraes da Cruz</h1>
 
 <p align="center">
-  <sub>Engenharia de Software · Founder do <b>Desk Imperial</b> · Saquarema, RJ — Brasil</sub>
+  <sub>Engenharia de Software · Fundador do <b>Desk Imperial</b> · Saquarema, RJ — Brasil</sub>
 </p>
 
 <p align="center">
