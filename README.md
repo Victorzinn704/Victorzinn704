@@ -13,10 +13,6 @@
   <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-530060259/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-contato-0a66c2?style=flat-square&logo=linkedin&logoColor=white"></a>
 </p>
 
-<p align="center">
-  <img src="./assets/profile-dashboard.svg" alt="Painel visual com as frentes de produto, C/C++, sistemas locais, interface e governança do portfólio" width="100%">
-</p>
-
 ---
 
 ## O que eu estou construindo
@@ -45,6 +41,32 @@ Hoje, meu projeto principal é o [Desk Imperial](https://github.com/Victorzinn70
 </td>
 </tr>
 </table>
+
+---
+
+## Contribuição e informações públicas
+
+Estes gráficos ajudam a ler atividade pública, linguagens e distribuição geral do perfil. Eu trato isso como complemento: a avaliação principal continua nos repositórios, nos testes, na documentação e nas evidências de execução.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Victorzinn704&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&theme=github_dark&locale=pt-br">
+    <img alt="Estatísticas públicas do GitHub de João Victor" height="170" src="https://github-readme-stats.vercel.app/api?username=Victorzinn704&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&theme=default&locale=pt-br">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Victorzinn704&layout=compact&langs_count=8&hide_border=true&theme=github_dark&locale=pt-br">
+    <img alt="Linguagens mais usadas publicamente no GitHub de João Victor" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Victorzinn704&layout=compact&langs_count=8&hide_border=true&theme=default&locale=pt-br">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Victorzinn704&theme=github-compact&hide_border=true&area=true&custom_title=Contribui%C3%A7%C3%B5es%20p%C3%BAblicas">
+    <img alt="Gráfico de contribuições públicas de João Victor no GitHub" src="https://github-readme-activity-graph.vercel.app/graph?username=Victorzinn704&theme=minimal&hide_border=true&area=true&custom_title=Contribui%C3%A7%C3%B5es%20p%C3%BAblicas">
+  </picture>
+</p>
+
+---
 
 ## Mapa técnico
 
@@ -88,33 +110,42 @@ O [Gerenciador de Tarefas](https://github.com/Victorzinn704/Gerenciador-de-Taref
 
 ---
 
-## Stack que aparece de verdade
+## Stack por frente
 
-| Área | Ferramentas |
-| --- | --- |
-| Frontend | React, Next.js, TypeScript, Vite, Tailwind CSS, PWA, Framer Motion, Zod |
-| Backend | Node.js, NestJS, Prisma, PostgreSQL, Redis, Socket.IO, Firebase, Firestore |
-| Sistemas | C, C++, Python, Rust, Go, PowerShell, SQLite, WASAPI, CUDA, CTranslate2 |
-| Qualidade | GitHub Actions, Jest, Vitest, Playwright, pytest, cargo test, ESLint, TypeScript check |
-| Observabilidade | SonarQube, Grafana, Prometheus, k6, logs estruturados, health checks |
-| Publicação | Docker, Linux, Oracle Cloud, Railway, Vercel, GitHub Pages, Cloudflare |
+As logos abaixo representam ferramentas que aparecem nos projetos principais. Mantive só os ícones para facilitar leitura visual; o contexto de uso fica explicado no mapa técnico e nos READMEs de cada repositório.
 
----
-
-## Indicadores públicos
-
-Estes gráficos são leitura complementar do GitHub. Eu não uso isso como substituto de documentação ou teste; eles ajudam a ver atividade pública, linguagem e distribuição geral do perfil.
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Victorzinn704&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&theme=github_dark&locale=pt-br">
-    <img alt="Estatísticas públicas do GitHub de João Victor" height="170" src="https://github-readme-stats.vercel.app/api?username=Victorzinn704&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&theme=default&locale=pt-br">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Victorzinn704&layout=compact&langs_count=8&hide_border=true&theme=github_dark&locale=pt-br">
-    <img alt="Linguagens mais usadas publicamente no GitHub de João Victor" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Victorzinn704&layout=compact&langs_count=8&hide_border=true&theme=default&locale=pt-br">
-  </picture>
-</p>
+<table>
+<tr>
+<td align="center" width="50%">
+<strong>Frontend</strong><br><br>
+<img alt="React, Next.js, TypeScript, Vite, Tailwind CSS" src="https://skillicons.dev/icons?i=react,nextjs,ts,vite,tailwind&theme=light">
+</td>
+<td align="center" width="50%">
+<strong>Backend e dados</strong><br><br>
+<img alt="Node.js, NestJS, Prisma, PostgreSQL, Redis, Firebase" src="https://skillicons.dev/icons?i=nodejs,nestjs,prisma,postgres,redis,firebase&theme=light">
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<strong>Sistemas e runtime</strong><br><br>
+<img alt="C, C++, Python, Rust, Go, PowerShell, SQLite" src="https://skillicons.dev/icons?i=c,cpp,python,rust,go,powershell,sqlite&theme=light">
+</td>
+<td align="center" width="50%">
+<strong>Infra e publicação</strong><br><br>
+<img alt="Docker, Linux, Vercel, Cloudflare, GitHub Actions, Nginx" src="https://skillicons.dev/icons?i=docker,linux,vercel,cloudflare,githubactions,nginx&theme=light">
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<strong>Observabilidade</strong><br><br>
+<img alt="Grafana, Prometheus" src="https://skillicons.dev/icons?i=grafana,prometheus&theme=light">
+</td>
+<td align="center" width="50%">
+<strong>Governança e qualidade</strong><br><br>
+<img alt="GitHub Actions, Jest, Vitest, Playwright, ESLint, SonarQube" src="https://skillicons.dev/icons?i=githubactions,jest,vitest,playwright,eslint,sonarqube&theme=light">
+</td>
+</tr>
+</table>
 
 ---
 
