@@ -34,8 +34,8 @@ Minha organização aqui segue uma ideia simples: cada repositório precisa most
 | Tempo real e runtime | [TX - Tradutor em REALTIME](https://github.com/Victorzinn704/TX-Tradutor-em-REALTIME) | Pipeline local de áudio com Python, Rust, GPU, captura WASAPI, VAD, ASR e fallback de tradução. | CI ativo, testes Python e Rust documentados. |
 | C, C++ e redes | [Aprendendo em C e C++](https://github.com/Victorzinn704/Aprendendo-em-C-e-C-) | Repositório de estudo aplicado com estruturas de dados, simulação de rede, terminal interativo e página demonstrativa. | Pages e workflow de qualidade ativos. |
 | Frontend aplicado | [Gerenciador de Tarefas](https://github.com/Victorzinn704/Gerenciador-de-Tarefas-) | Interface React para fluxo de tarefas, tema claro/escuro, testes e documentação de uso. | Pages e workflow de qualidade ativos. |
-| Operação local | [Project Sentinel](https://github.com/Victorzinn704/project-sentinel) | Gateway local para uso autorizado de modelos compatíveis com OpenAI, com auditoria, políticas e SQLite. | Documentação revisada; CI dedicado entra no próximo ciclo. |
-| SaaS em estabilização | [RH Insights](https://github.com/Victorzinn704/RH-Insights) | Plataforma multi-tenant para RH com Firebase, regras de isolamento, Gemini e módulos administrativos. | Repositório com documentação forte; CI recente ainda precisa ser tratado antes de virar vitrine principal. |
+| Operação local | [Project Sentinel](https://github.com/Victorzinn704/project-sentinel) | Gateway local para uso autorizado de modelos compatíveis com OpenAI, com auditoria, políticas e SQLite. | CI ativo com testes Go, build e guard de publicação. |
+| SaaS em estabilização | [RH Insights](https://github.com/Victorzinn704/RH-Insights) | Plataforma multi-tenant para RH com Firebase, regras de isolamento, Gemini e módulos administrativos. | CI restaurado, audit zerado e documentação forte; segue em estabilização de produto. |
 
 ---
 
@@ -53,7 +53,7 @@ O objetivo não é acumular repositórios desconectados. Cada projeto ocupa uma 
 
 **Project Sentinel** entra na camada de operação e controle local. O foco é executar tarefas autorizadas com registro, política e previsibilidade, evitando que automação vire caixa-preta.
 
-**RH Insights** fica como projeto de produto em revisão. Ele tem uma boa base documental e um problema de negócio claro, mas ainda precisa fechar a qualidade automatizada para ficar no mesmo nível de confiança dos demais.
+**RH Insights** fica como projeto de produto em estabilização. Ele tem uma boa base documental, problema de negócio claro e CI restaurado; o próximo passo é amadurecer a experiência do produto e reduzir warnings técnicos restantes.
 
 ---
 
@@ -241,7 +241,7 @@ Em cada projeto, busco manter:
 - **Capturas de tela ou logs não sensíveis** para comprovar funcionamento.
 - **CI quando o projeto permite** para reduzir regressão e validar mudanças antes do merge.
 
-Essa estrutura já está mais madura no Desk Imperial, TX, Aprendendo em C/C++ e Gerenciador de Tarefas. Os próximos ajustes ficam em Project Sentinel e RH Insights.
+Essa estrutura já está mais madura no Desk Imperial, TX, Aprendendo em C/C++, Gerenciador de Tarefas, Project Sentinel e RH Insights. O próximo ajuste é manter essa régua em todos os repositórios menores.
 
 ---
 
@@ -259,8 +259,8 @@ Essa estrutura já está mais madura no Desk Imperial, TX, Aprendendo em C/C++ e
 
 O foco atual do perfil é deixar os repositórios conversando entre si:
 
-- corrigir o CI do RH Insights antes de colocá-lo como vitrine principal;
-- adicionar workflow dedicado ao Project Sentinel;
+- reduzir warnings técnicos restantes no RH Insights;
+- manter o workflow do Project Sentinel como porta mínima de qualidade para mudanças futuras;
 - manter os READMEs alinhados com guias de uso, testes e evidências;
 - melhorar tópicos, descrições e links de demonstração nos repositórios;
 - publicar demonstrações no GitHub Pages quando fizer sentido;
