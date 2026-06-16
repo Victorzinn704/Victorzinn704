@@ -13,6 +13,10 @@
   <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-530060259/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-contato-0a66c2?style=flat-square&logo=linkedin&logoColor=white"></a>
 </p>
 
+<p align="center">
+  <img src="./assets/profile-dashboard.svg" alt="Painel visual com as frentes de produto, C/C++, sistemas locais, interface e governança do portfólio" width="100%">
+</p>
+
 ---
 
 ## O que eu estou construindo
@@ -23,26 +27,24 @@ Hoje, meu projeto principal é o [Desk Imperial](https://github.com/Victorzinn70
 
 <table>
 <tr>
-<td width="25%" valign="top">
-<strong>Produto</strong><br>
-<sub>Desk Imperial, regras de negócio, API, frontend, banco, tempo real e operação publicada.</sub>
+<td align="center" width="25%">
+<strong>6</strong><br>
+<sub>repositórios de referência</sub>
 </td>
-<td width="25%" valign="top">
-<strong>Base técnica</strong><br>
-<sub>C, C++, estruturas de dados, simulação de rede, terminal e explicação passo a passo.</sub>
+<td align="center" width="25%">
+<strong>3</strong><br>
+<sub>frentes publicadas: app, API e Pages</sub>
 </td>
-<td width="25%" valign="top">
-<strong>Sistemas locais</strong><br>
-<sub>Áudio em tempo real, Go, Rust, Python, políticas, logs, SQLite e fallback.</sub>
+<td align="center" width="25%">
+<strong>4</strong><br>
+<sub>trilhas técnicas principais</sub>
 </td>
-<td width="25%" valign="top">
-<strong>Interface</strong><br>
-<sub>React, TypeScript, GitHub Pages, tema claro/escuro, responsividade e fluxo de uso.</sub>
+<td align="center" width="25%">
+<strong>1</strong><br>
+<sub>padrão de governança para README, testes e evidências</sub>
 </td>
 </tr>
 </table>
-
----
 
 ## Mapa técnico
 
@@ -96,6 +98,23 @@ O [Gerenciador de Tarefas](https://github.com/Victorzinn704/Gerenciador-de-Taref
 | Qualidade | GitHub Actions, Jest, Vitest, Playwright, pytest, cargo test, ESLint, TypeScript check |
 | Observabilidade | SonarQube, Grafana, Prometheus, k6, logs estruturados, health checks |
 | Publicação | Docker, Linux, Oracle Cloud, Railway, Vercel, GitHub Pages, Cloudflare |
+
+---
+
+## Indicadores públicos
+
+Estes gráficos são leitura complementar do GitHub. Eu não uso isso como substituto de documentação ou teste; eles ajudam a ver atividade pública, linguagem e distribuição geral do perfil.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Victorzinn704&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&theme=github_dark&locale=pt-br">
+    <img alt="Estatísticas públicas do GitHub de João Victor" height="170" src="https://github-readme-stats.vercel.app/api?username=Victorzinn704&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&theme=default&locale=pt-br">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Victorzinn704&layout=compact&langs_count=8&hide_border=true&theme=github_dark&locale=pt-br">
+    <img alt="Linguagens mais usadas publicamente no GitHub de João Victor" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Victorzinn704&layout=compact&langs_count=8&hide_border=true&theme=default&locale=pt-br">
+  </picture>
+</p>
 
 ---
 
