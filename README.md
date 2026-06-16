@@ -66,6 +66,14 @@ Estes gráficos ajudam a ler atividade pública, linguagens e distribuição ger
   </picture>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Victorzinn704/Victorzinn704/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Victorzinn704/Victorzinn704/output/github-snake.svg">
+    <img alt="Cobrinha lendo o histórico público de contribuições de João Victor" src="https://raw.githubusercontent.com/Victorzinn704/Victorzinn704/output/github-snake.svg">
+  </picture>
+</p>
+
 ---
 
 ## Mapa técnico
