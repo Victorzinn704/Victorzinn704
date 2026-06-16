@@ -1,275 +1,123 @@
 <h1 align="center">João Victor de Moraes da Cruz</h1>
 
 <p align="center">
-  <sub>Engenharia de Software · Desk Imperial · Saquarema, RJ · Brasil</sub>
+  <sub>Engenharia de Software | produto full-stack | sistemas locais | C/C++ e redes | Saquarema, RJ</sub>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Victorzinn704/Desk-Imperial-Open-Source"><img alt="Desk Imperial Open Source" src="https://img.shields.io/badge/projeto%20principal-Desk%20Imperial-0A66C2?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://app.deskimperial.online"><img alt="Aplicação em produção" src="https://img.shields.io/badge/app-app.deskimperial.online-111827?style=for-the-badge&logo=vercel&logoColor=white"></a>
-  <a href="https://api.deskimperial.online"><img alt="API em produção" src="https://img.shields.io/badge/api-api.deskimperial.online-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"></a>
-</p>
-
-<p align="center">
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Victorzinn704&style=flat-square&color=0A66C2">
-  <img alt="GitHub followers" src="https://img.shields.io/github/followers/Victorzinn704?style=flat-square&color=111827">
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/Victorzinn704?style=flat-square&color=F5A623">
+  <a href="https://github.com/Victorzinn704/Desk-Imperial-Open-Source">Desk Imperial</a> |
+  <a href="https://app.deskimperial.online">Aplicação</a> |
+  <a href="https://api.deskimperial.online">API</a> |
+  <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-530060259/">LinkedIn</a>
 </p>
 
 ---
 
-## Leitura rápida
+## Perfil técnico
 
-Sou estudante de Engenharia de Software e uso este GitHub como um registro público de construção técnica. O centro do meu trabalho hoje é o **Desk Imperial**, uma plataforma full-stack open source para gestão comercial, mas o perfil não fica limitado a ele: mantenho projetos de tempo real, C/C++, frontend, automação operacional e documentação técnica.
+Uso este GitHub como portfólio técnico rastreável. O objetivo não é concentrar frases de impacto no perfil, e sim deixar claro quais problemas eu estou resolvendo, quais decisões técnicas foram tomadas, como o projeto roda e quais evidências públicas sustentam cada entrega.
 
-Minha organização aqui segue uma ideia simples: cada repositório precisa mostrar **problema**, **decisão técnica**, **código**, **testes**, **documentação**, **evidência de uso** e **limites conhecidos**. Quando isso não está claro, trato como backlog de engenharia, não como detalhe estético.
+Leitura em 60 segundos:
 
----
-
-## Mapa dos projetos
-
-| Frente | Repositório | Papel no portfólio | Estado atual |
-| --- | --- | --- | --- |
-| Produto principal | [Desk Imperial](https://github.com/Victorzinn704/Desk-Imperial-Open-Source) | Plataforma full-stack com backend, frontend, tempo real, testes, observabilidade e documentação extensa. | Base principal, CI ativo, app e API publicados. |
-| Tempo real e runtime | [TX - Tradutor em REALTIME](https://github.com/Victorzinn704/TX-Tradutor-em-REALTIME) | Pipeline local de áudio com Python, Rust, GPU, captura WASAPI, VAD, ASR e fallback de tradução. | CI ativo, testes Python e Rust documentados. |
-| C, C++ e redes | [Aprendendo em C e C++](https://github.com/Victorzinn704/Aprendendo-em-C-e-C-) | Repositório de estudo aplicado com estruturas de dados, simulação de rede, terminal interativo e página demonstrativa. | Pages e workflow de qualidade ativos. |
-| Frontend aplicado | [Gerenciador de Tarefas](https://github.com/Victorzinn704/Gerenciador-de-Tarefas-) | Interface React para fluxo de tarefas, tema claro/escuro, testes e documentação de uso. | Pages e workflow de qualidade ativos. |
-| Operação local | [Project Sentinel](https://github.com/Victorzinn704/project-sentinel) | Gateway local para uso autorizado de modelos compatíveis com OpenAI, com auditoria, políticas e SQLite. | CI ativo com testes Go, build e guard de publicação. |
-| SaaS em estabilização | [RH Insights](https://github.com/Victorzinn704/RH-Insights) | Plataforma multi-tenant para RH com Firebase, regras de isolamento, Gemini e módulos administrativos. | CI restaurado, audit zerado e documentação forte; segue em estabilização de produto. |
+- **Produto principal:** [Desk Imperial](https://github.com/Victorzinn704/Desk-Imperial-Open-Source), plataforma full-stack para gestão comercial com app, API, tempo real, testes, documentação e operação publicada.
+- **Formação prática:** C, C++, redes, estruturas de dados, frontend, backend, automação local, testes e documentação técnica.
+- **Critério de qualidade:** cada repositório relevante precisa ter contexto, execução local, testes, evidências, arquitetura, limites conhecidos e próximos passos.
+- **Organização do perfil:** os projetos abaixo funcionam como trilhas de competência, não como uma lista solta de repositórios.
 
 ---
 
-## Como os projetos conversam
+## Mapa de projetos
 
-O objetivo não é acumular repositórios desconectados. Cada projeto ocupa uma camada diferente da minha formação.
-
-**Desk Imperial** é o produto mais completo: regra de negócio, banco de dados, API, frontend, operação em tempo real, testes, observabilidade e documentação. Ele mostra como eu organizo um sistema grande e como registro decisões para manter o projeto evoluindo sem depender de memória.
-
-**TX - Tradutor em REALTIME** aprofunda runtime e processamento local. O projeto trabalha com captura de áudio, decisão de quando usar GPU, redução de ruído operacional, fallback e testes em Python/Rust. Ele complementa o Desk Imperial porque exige pensar em latência, fluxo contínuo e falha parcial.
-
-**Aprendendo em C e C++** cobre base técnica: memória, estruturas de dados, simulação no terminal, redes e leitura de comportamento passo a passo. A ideia é mostrar fundamentos de forma executável, não apenas teoria solta. A demonstração web existe para apresentar o fluxo, mas o código C/C++ fica versionado como referência principal.
-
-**Gerenciador de Tarefas** funciona como campo de frontend aplicado. Ele reforça estado de interface, persistência local, tema claro/escuro, responsividade, acessibilidade básica e testes de comportamento.
-
-**Project Sentinel** entra na camada de operação e controle local. O foco é executar tarefas autorizadas com registro, política e previsibilidade, evitando que automação vire caixa-preta.
-
-**RH Insights** fica como projeto de produto em estabilização. Ele tem uma boa base documental, problema de negócio claro e CI restaurado; o próximo passo é amadurecer a experiência do produto e reduzir warnings técnicos restantes.
+| Trilha | Repositório | O que demonstra | Evidência pública | Estado |
+| --- | --- | --- | --- | --- |
+| Produto principal | [Desk Imperial](https://github.com/Victorzinn704/Desk-Imperial-Open-Source) | Produto full-stack com domínio comercial, API, frontend, tempo real, banco de dados, testes e operação. | App e API publicados, documentação extensa, workflows e histórico de manutenção. | Projeto central do perfil. |
+| C, C++ e redes | [Aprendendo em C e C++](https://github.com/Victorzinn704/Aprendendo-em-C-e-C-) | Fundamentos de C/C++, estruturas de dados, simulação de rede, terminal e demo web. | GitHub Pages, guia de ambiente, matriz de testes, screenshots e código nativo. | Trilha de base técnica em expansão. |
+| Runtime local | [TX - Tradutor em REALTIME](https://github.com/Victorzinn704/TX-Tradutor-em-REALTIME) | Pipeline local de áudio com Python, Rust, captura, ASR, fallback e testes. | Documentação técnica, testes Python/Rust e matriz de evidências. | Projeto de tempo real e processamento local. |
+| Operação e controle | [Project Sentinel](https://github.com/Victorzinn704/project-sentinel) | Gateway local em Go com políticas, SQLite, auditoria e validação de execução. | CI com testes Go, build e documentação operacional. | Camada de automação autorizada e rastreável. |
+| Frontend aplicado | [Gerenciador de Tarefas](https://github.com/Victorzinn704/Gerenciador-de-Tarefas-) | React, estado de interface, tema claro/escuro, responsividade e fluxo de uso. | GitHub Pages, testes e documentação de casos de uso. | Referência simples de interface publicada. |
+| Produto em estabilização | [RH Insights](https://github.com/Victorzinn704/RH-Insights) | SaaS multi-tenant com Firebase, regras de isolamento, módulos administrativos e documentação. | CI restaurado, audit corrigido, regras documentadas e backlog técnico registrado. | Mantido como projeto de estabilização. |
 
 ---
 
-## Projeto principal: Desk Imperial
+## Régua de qualidade
 
-Plataforma open source para pequenos e médios comerciantes brasileiros. O objetivo é substituir planilhas soltas por uma operação integrada: venda, comanda, estoque, financeiro, folha, calendário, carteira de clientes, mobile e administração.
+Esta é a base que estou consolidando nos repositórios principais.
 
-**O que o projeto cobre hoje**
+| Critério | O que precisa aparecer |
+| --- | --- |
+| Contexto | Problema resolvido, público-alvo, escopo e limite do projeto. |
+| Execução | Passo a passo para preparar ambiente, instalar dependências e rodar localmente. |
+| Teste | Comandos de validação, casos de uso e comportamento esperado. |
+| Evidência | Screenshots, logs não sensíveis, GitHub Pages, CI ou registros de execução. |
+| Arquitetura | Decisões técnicas, divisão de módulos, fluxo de dados e trade-offs. |
+| Segurança | Controle de permissões, dados sensíveis, isolamento, entradas inválidas e falhas conhecidas. |
+| Manutenção | Backlog, próximos passos, estado real do projeto e pontos que ainda precisam evoluir. |
 
-- PDV, comandas e fluxo de venda com atualização em tempo real.
-- Financeiro por período, carteira, movimentações e leitura de caixa.
-- Folha de pagamento automatizada, cargos e regras de comissão.
-- Produtos, combos, portfólio comercial e operação mobile.
-- LGPD, admin PIN, auditoria e isolamento por tenant.
-- Backend NestJS, frontend Next.js, PostgreSQL, Prisma, Redis e Socket.IO.
-
-**Evidências públicas**
-
-- Repositório: [Desk-Imperial-Open-Source](https://github.com/Victorzinn704/Desk-Imperial-Open-Source)
-- App: [app.deskimperial.online](https://app.deskimperial.online)
-- API: [api.deskimperial.online](https://api.deskimperial.online)
-- Documentação técnica, testes, arquitetura, setup, operação e planos de evolução no próprio repositório.
+O README de cada projeto deve funcionar como porta de entrada. Documentos internos podem aprofundar arquitetura, testes e decisões, mas a primeira leitura precisa deixar claro como o projeto se sustenta.
 
 ---
 
-## Repositórios em destaque
+## Trilhas de competência
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### Produto e regra de negócio
 
-### TX - Tradutor em REALTIME
+O [Desk Imperial](https://github.com/Victorzinn704/Desk-Imperial-Open-Source) é a principal referência. Ele concentra regra de negócio, autenticação, multi-tenant, operação em tempo real, financeiro, estoque, vendas, folha, documentação, testes e publicação. É o projeto usado para demonstrar evolução de produto e manutenção de uma base maior.
 
-Tradutor local de áudio para Windows 11, com pipeline híbrido em Python e Rust.
+### Fundamentos em C/C++ e redes
 
-**Pontos técnicos**
+O repositório [Aprendendo em C e C++](https://github.com/Victorzinn704/Aprendendo-em-C-e-C-) organiza exercícios e implementações com foco em leitura de código, estrutura de dados, ponteiros, alocação, simulação de rede e explicação para público técnico e não técnico. A proposta é manter o código simples de compilar, com demonstrações locais e documentação de execução.
 
-- Captura de microfone e áudio do sistema via WASAPI.
-- VAD em camadas para reduzir processamento desnecessário.
-- Transcrição com faster-whisper/CTranslate2.
-- Tradução com fallback local e contextual.
-- Testes Python e Rust documentados.
+### Sistemas locais e tempo real
 
-**Links**
+[TX - Tradutor em REALTIME](https://github.com/Victorzinn704/TX-Tradutor-em-REALTIME) e [Project Sentinel](https://github.com/Victorzinn704/project-sentinel) ficam nessa frente. Eles trabalham com runtime local, captura, processamento contínuo, políticas, auditoria, fallback, logs e testes de comportamento.
 
-- [Repositório](https://github.com/Victorzinn704/TX-Tradutor-em-REALTIME)
-- [Índice técnico](https://github.com/Victorzinn704/TX-Tradutor-em-REALTIME/blob/main/docs/INDEX.md)
-- [Matriz de testes](https://github.com/Victorzinn704/TX-Tradutor-em-REALTIME/blob/main/docs/MATRIZ-DE-TESTES-E-EVIDENCIAS.md)
+### Interface e experiência de uso
 
-</td>
-<td width="50%" valign="top">
-
-### Aprendendo em C e C++
-
-Repositório de fundamentos com foco em C, C++, estruturas de dados e redes.
-
-**Pontos técnicos**
-
-- Simulador de rede no terminal com fluxo demonstrativo.
-- Cadastro de ambiente, dispositivos, pacotes e rotas.
-- Documentação para usuário técnico e não técnico.
-- Evidências de execução, testes e limites conhecidos.
-- Demonstração web para GitHub Pages.
-
-**Links**
-
-- [Repositório](https://github.com/Victorzinn704/Aprendendo-em-C-e-C-)
-- [Demonstração no GitHub Pages](https://victorzinn704.github.io/Aprendendo-em-C-e-C-/)
-- [Matriz de testes e casos de uso](https://github.com/Victorzinn704/Aprendendo-em-C-e-C-/blob/main/docs/testing/use-case-test-matrix.md)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Gerenciador de Tarefas
-
-Aplicação React para organização de tarefas, com foco em fluxo simples, tema claro/escuro e documentação verificável.
-
-**Pontos técnicos**
-
-- Interface responsiva com estados claros.
-- Tema claro e escuro.
-- Testes de comportamento.
-- Documentação de casos de uso e evidências.
-- Publicação via GitHub Pages.
-
-**Links**
-
-- [Repositório](https://github.com/Victorzinn704/Gerenciador-de-Tarefas-)
-- [Demonstração no GitHub Pages](https://victorzinn704.github.io/Gerenciador-de-Tarefas-/)
-- [Matriz de testes e evidências](https://github.com/Victorzinn704/Gerenciador-de-Tarefas-/blob/main/docs/MATRIZ-DE-TESTES-E-EVIDENCIAS.md)
-
-</td>
-<td width="50%" valign="top">
-
-### Project Sentinel
-
-Gateway local para operação autorizada com modelos compatíveis com OpenAI.
-
-**Pontos técnicos**
-
-- Servidor local em Go.
-- Políticas de permissão e auditoria.
-- Persistência local com SQLite.
-- Guia de operação e treinamento.
-- Documentação de segurança e validação.
-
-**Links**
-
-- [Repositório](https://github.com/Victorzinn704/project-sentinel)
-- [Documentação](https://github.com/Victorzinn704/project-sentinel/tree/main/docs)
-- [Matriz de testes](https://github.com/Victorzinn704/project-sentinel/blob/main/docs/testing/use-case-test-matrix.md)
-
-</td>
-</tr>
-</table>
+[Gerenciador de Tarefas](https://github.com/Victorzinn704/Gerenciador-de-Tarefas-) e as demos do repositório de C/C++ servem como laboratório de frontend: layout, estado, tema claro/escuro, responsividade, GitHub Pages e explicação visual de fluxos que também existem no terminal.
 
 ---
 
-## Stack por uso real
+## Stack por responsabilidade
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### Produto web
-
-Next.js · React · TypeScript · Vite · Tailwind CSS · PWA · Framer Motion · Zod
-
-</td>
-<td width="33%" valign="top">
-
-### Backend e dados
-
-NestJS · Node.js · PostgreSQL · Prisma · Redis · Socket.IO · Firebase · Firestore
-
-</td>
-<td width="33%" valign="top">
-
-### Sistemas e runtime
-
-C · C++ · Python · Rust · Go · PowerShell · SQLite · WASAPI · CUDA · CTranslate2
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-### Qualidade
-
-GitHub Actions · Jest · Vitest · Playwright · pytest · cargo test · ESLint · TypeScript check
-
-</td>
-<td width="33%" valign="top">
-
-### Observabilidade
-
-SonarQube · Grafana · Prometheus · k6 · logs estruturados · health checks
-
-</td>
-<td width="33%" valign="top">
-
-### Operação
-
-Docker · Linux · Oracle Cloud · Railway · Vercel · GitHub Pages · Cloudflare
-
-</td>
-</tr>
-</table>
+| Frente | Ferramentas usadas |
+| --- | --- |
+| Frontend | React, Next.js, TypeScript, Vite, Tailwind CSS, PWA, Framer Motion, Zod |
+| Backend | Node.js, NestJS, Prisma, PostgreSQL, Redis, Socket.IO, Firebase, Firestore |
+| Sistemas | C, C++, Python, Rust, Go, PowerShell, SQLite, WASAPI, CUDA, CTranslate2 |
+| Qualidade | GitHub Actions, Jest, Vitest, Playwright, pytest, cargo test, ESLint, TypeScript check |
+| Observabilidade | SonarQube, Grafana, Prometheus, k6, logs estruturados, health checks |
+| Publicação | Docker, Linux, Oracle Cloud, Railway, Vercel, GitHub Pages, Cloudflare |
 
 ---
 
-## Padrão de documentação que estou consolidando
+## Como avaliar meus repositórios
 
-Estou organizando meus repositórios para seguirem o mesmo raciocínio de engenharia. A meta não é deixar tudo bonito por fora; é permitir que outra pessoa entenda o projeto sem depender de explicação informal.
+Para uma avaliação técnica rápida, eu recomendo este caminho:
 
-Em cada projeto, busco manter:
+1. Abra o README do projeto e confirme se existe objetivo, stack, status e comandos de execução.
+2. Verifique se há documentação de arquitetura, casos de uso ou matriz de testes.
+3. Procure evidência de funcionamento: GitHub Pages, screenshots, logs, CI ou app publicado.
+4. Veja os workflows e os comandos de teste, quando o tipo de projeto permitir.
+5. Leia os limites conhecidos e próximos passos antes de considerar o projeto como finalizado.
 
-- **README de entrada** explicando objetivo, contexto, stack, status e como executar.
-- **Casos de uso** mostrando onde a funcionalidade aparece na prática.
-- **Matriz de testes e evidências** conectando fluxo, comando, resultado esperado e comprovação.
-- **Guia de ambiente** para preparação local, dependências e comandos.
-- **Arquitetura** com decisões, trade-offs, limites e próximos passos.
-- **Capturas de tela ou logs não sensíveis** para comprovar funcionamento.
-- **CI quando o projeto permite** para reduzir regressão e validar mudanças antes do merge.
-
-Essa estrutura já está mais madura no Desk Imperial, TX, Aprendendo em C/C++, Gerenciador de Tarefas, Project Sentinel e RH Insights. O próximo ajuste é manter essa régua em todos os repositórios menores.
+Projetos antigos, exercícios pequenos e protótipos ficam como histórico. Os repositórios que devem carregar a avaliação principal do perfil são os que aparecem no mapa acima.
 
 ---
 
-## Como eu trabalho
+## Estado atual do portfólio
 
-- Escrevo documentação junto com o código, principalmente quando existe regra de negócio ou decisão técnica que pode ser esquecida depois.
-- Prefiro fluxo rastreável: requisito, implementação, teste, evidência e limite conhecido.
-- Trato teste como ferramenta de manutenção, não como formalidade para passar em pipeline.
-- Quando uma entrega ainda não está confiável, marco como estabilização em vez de vender como pronta.
-- Tento manter o projeto apresentável para pessoas técnicas e também explicável para quem só quer entender o uso.
-
----
-
-## Ciclo atual de melhoria
-
-O foco atual do perfil é deixar os repositórios conversando entre si:
-
-- reduzir warnings técnicos restantes no RH Insights;
-- manter o workflow do Project Sentinel como porta mínima de qualidade para mudanças futuras;
-- manter os READMEs alinhados com guias de uso, testes e evidências;
-- melhorar tópicos, descrições e links de demonstração nos repositórios;
-- publicar demonstrações no GitHub Pages quando fizer sentido;
-- separar claramente estudo, produto, runtime, frontend e operação.
+| Área | Situação atual | Próximo foco |
+| --- | --- | --- |
+| Perfil GitHub | Reorganização para leitura técnica, governança e rastreabilidade. | Alinhar pins, descrições, tópicos e links públicos. |
+| Desk Imperial | Produto principal com app, API, documentação e testes. | Manter qualidade, reduzir ruído técnico e melhorar evidências de uso. |
+| C/C++ e redes | Repositório criado para estudos aplicados e apresentação acadêmica. | Expandir C++, manter screenshots legíveis e reforçar testes manuais/automatizados. |
+| Frontend | Demos publicadas e projeto de tarefas como referência visual. | Padronizar componentes, modo claro/escuro e documentação de UI. |
+| Operação | Project Sentinel e TX registram runtime local, políticas e fluxo contínuo. | Melhorar guias de instalação, falhas esperadas e validação em máquina limpa. |
 
 ---
 
 ## English summary
 
-Software Engineering student from Brazil, focused on building public, documented and testable software. My main project is **Desk Imperial**, an open source full-stack commercial management platform with production app, API, real-time flows, tests and technical documentation.
+Software Engineering student from Brazil, focused on public, documented and testable software. My main project is [Desk Imperial](https://github.com/Victorzinn704/Desk-Imperial-Open-Source), an open source full-stack platform for commercial operations with published app, API, real-time flows, tests and technical documentation.
 
-I also maintain projects in real-time audio translation, C/C++ fundamentals, React interfaces and local operation tooling. This profile is organized as a technical portfolio: each repository should show the problem, architecture, implementation, tests, evidence and known limits.
+This profile is organized as a technical portfolio. Each relevant repository should explain the problem, architecture, local setup, tests, evidence, current limits and next steps.
