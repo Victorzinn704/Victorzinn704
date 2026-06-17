@@ -61,6 +61,13 @@ Estes gráficos ajudam a ler atividade pública, linguagens e distribuição ger
 
 <p align="center">
   <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Victorzinn704&hide_border=true&theme=dark&locale=pt_BR">
+    <img alt="Sequência pública de commits e consistência de atividade de João Victor" src="https://streak-stats.demolab.com?user=Victorzinn704&hide_border=true&locale=pt_BR">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Victorzinn704&theme=github-compact&hide_border=true&area=true&custom_title=Contribui%C3%A7%C3%B5es%20p%C3%BAblicas">
     <img alt="Gráfico de contribuições públicas de João Victor no GitHub" src="https://github-readme-activity-graph.vercel.app/graph?username=Victorzinn704&theme=minimal&hide_border=true&area=true&custom_title=Contribui%C3%A7%C3%B5es%20p%C3%BAblicas">
   </picture>
