@@ -48,10 +48,54 @@ jobs:
             errors.push('Branch inválida. Use um prefixo permitido, como fix/123-corrige-validacao ou migration/java-2.0.');
           }
 
-          const body = String(pr.body ?? '')
-            .replace(/<!--[\s\S]*?-->/g, '')
-            .replace(/^[ \t]*(`{3,}|~{3,})[^\r\n]*\r?\n[\s\S]*?^[ \t]*\1[^\r\n]*(?:\r?\n|$)/gm, '')
-            .replace(/`[^`\r\n]*`/g, '');
+          const visibleLines = [];
+          let fence = null;
+          let inComment = false;
+          for (const rawLine of String(pr.body ?? '').split(/\r?\n/)) {
+            if (fence) {
+              const closing = /^ {0,3}(`+|~+)[ \t]*$/.exec(rawLine);
+              if (closing && closing[1][0] === fence[0] && closing[1].length >= fence.length) {
+                fence = null;
+              }
+              continue;
+            }
+            if (!inComment && /^(?: {4}| {0,3}\t)/.test(rawLine)) continue;
+            const rawOpening = /^ {0,3}(`{3,}|~{3,})/.exec(rawLine);
+            if (!inComment && rawOpening) {
+              fence = rawOpening[1];
+              continue;
+            }
+
+            let line = '';
+            let offset = 0;
+            while (offset < rawLine.length) {
+              if (inComment) {
+                const end = rawLine.indexOf('-->', offset);
+                if (end === -1) break;
+                inComment = false;
+                offset = end + 3;
+              } else {
+                const start = rawLine.indexOf('<!--', offset);
+                if (start === -1) {
+                  line += rawLine.slice(offset);
+                  break;
+                }
+                line += rawLine.slice(offset, start);
+                inComment = true;
+                offset = start + 4;
+              }
+            }
+            if (/^(?: {4}| {0,3}\t)/.test(line)) continue;
+            const opening = /^ {0,3}(`{3,}|~{3,})/.exec(line);
+            if (opening) {
+              fence = opening[1];
+              continue;
+            }
+            visibleLines.push(line);
+          }
+          const body = visibleLines.join('\n')
+            .replace(/(?<!`)(`+)(?!`)[\s\S]*?(?<!`)\1(?!`)/g,
+              span => span.replace(/[^\r\n]/g, '\u0000'));
           const repo = process.env.GITHUB_REPOSITORY.toLowerCase();
           const references = [...body.matchAll(/^[ \t]*(?:[-*][ \t]+)?(?:Closes|Fixes|Resolves)[ \t]+(\S+?)[ \t]*\.?[ \t]*$/gim)];
           const linkedIssue = references.some(([, reference]) => {
