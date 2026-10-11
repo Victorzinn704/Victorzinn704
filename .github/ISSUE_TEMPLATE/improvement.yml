@@ -1,0 +1,33 @@
+name: Propor melhoria
+description: Proponha uma funcionalidade, documentação ou melhoria técnica com escopo claro.
+title: "[Melhoria]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Explique a necessidade com exemplos fictícios. Não inclua segredos, arquivos .env ou dados pessoais reais."
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Necessidade
+      description: Qual dificuldade existe hoje e quem se beneficiará da mudança?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposta e escopo
+      description: Descreva o resultado esperado e os limites da alteração.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Critérios de aceite
+      description: Liste resultados verificáveis para considerar a melhoria concluída.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas e impacto
+      description: Se relevante, cite alternativas, dependências, compatibilidade e limitações.

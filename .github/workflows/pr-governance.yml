@@ -1,0 +1,78 @@
+name: PR governance
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, edited, ready_for_review]
+
+permissions:
+  contents: read
+
+jobs:
+  governance:
+    name: PR governance
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Validar metadados do PR
+        shell: bash
+        run: |
+          node <<'NODE'
+          'use strict';
+          const fs = require('node:fs');
+          const event = JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'));
+          const pr = event.pull_request;
+          if (!pr || !process.env.GITHUB_REPOSITORY) {
+            console.error('Evento de pull request ou repositório ausente.');
+            process.exit(1);
+          }
+
+          const branch = String(pr.head?.ref ?? '');
+          const author = String(pr.user?.login ?? '');
+          const isDependencyBot = pr.user?.type === 'Bot' && (
+            (author === 'dependabot[bot]' && /^dependabot\/\S+$/.test(branch)) ||
+            (author === 'renovate[bot]' && /^renovate\/\S+$/.test(branch))
+          );
+          if (isDependencyBot) {
+            console.log('Automação de dependências reconhecida; regras de metadados dispensadas.');
+            process.exit(0);
+          }
+
+          const errors = [];
+          const title = String(pr.title ?? '');
+          const titlePattern = /^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\([^()\r\n]+\))?!?: \S[^\r\n]*$/;
+          if (!titlePattern.test(title) || /[\x00-\x1f\x7f]/.test(title)) {
+            errors.push('Título inválido. Exemplo: fix(api): corrige validação de entrada.');
+          }
+          const branchPattern = /^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert|migration|hotfix|codex)\/\S+$/;
+          if (!branchPattern.test(branch)) {
+            errors.push('Branch inválida. Use um prefixo permitido, como fix/123-corrige-validacao ou migration/java-2.0.');
+          }
+
+          const body = String(pr.body ?? '')
+            .replace(/<!--[\s\S]*?-->/g, '')
+            .replace(/^[ \t]*(`{3,}|~{3,})[^\r\n]*\r?\n[\s\S]*?^[ \t]*\1[^\r\n]*(?:\r?\n|$)/gm, '')
+            .replace(/`[^`\r\n]*`/g, '');
+          const repo = process.env.GITHUB_REPOSITORY.toLowerCase();
+          const references = [...body.matchAll(/^[ \t]*(?:[-*][ \t]+)?(?:Closes|Fixes|Resolves)[ \t]+(\S+?)[ \t]*\.?[ \t]*$/gim)];
+          const linkedIssue = references.some(([, reference]) => {
+            if (/^#[1-9]\d*$/.test(reference)) return true;
+            try {
+              const url = new URL(reference);
+              return url.protocol === 'https:' && url.hostname === 'github.com' &&
+                !url.port && !url.username && !url.password && !url.search && !url.hash &&
+                url.pathname.toLowerCase().startsWith('/' + repo + '/issues/') &&
+                /^\/[\w.-]+\/[\w.-]+\/issues\/[1-9]\d*$/.test(url.pathname);
+            } catch {
+              return false;
+            }
+          });
+          if (!linkedIssue) {
+            errors.push('Inclua uma linha Closes #123, Fixes #123 ou Resolves #123, ou a URL completa de uma issue deste repositório.');
+          }
+
+          if (errors.length) {
+            for (const error of errors) console.error(error);
+            process.exit(1);
+          }
+          console.log('Metadados válidos. Este check não substitui os testes e a revisão do projeto.');
+          NODE
