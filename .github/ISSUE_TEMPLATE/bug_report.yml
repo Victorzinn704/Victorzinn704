@@ -1,0 +1,40 @@
+name: Relatar problema
+description: Descreva um comportamento incorreto que possa ser reproduzido.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Use exemplos fictícios. Não envie senhas, tokens, arquivos .env ou dados pessoais reais. Para uma vulnerabilidade, siga SECURITY.md, se existir, e evite publicar detalhes exploráveis."
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema
+      description: O que aconteceu e qual comportamento era esperado?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Como reproduzir
+      description: Informe os passos e um exemplo mínimo com dados fictícios.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Ambiente e versão
+      description: Informe versão ou commit do projeto e o ambiente relevante, sem identificadores privados.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidências e impacto
+      description: Se útil, inclua mensagem de erro sanitizada e quem ou o que é afetado.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Critério de aceite
+      description: Qual resultado observável demonstrará que o problema foi corrigido?
+    validations:
+      required: true
