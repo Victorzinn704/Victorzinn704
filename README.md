@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Engenharia de Software | produto full-stack | sistemas locais | C/C++ e redes</strong><br>
-  <sub>Saquarema, RJ | Brasil</sub>
+  <sub>Rio de Janeiro, RJ | Brasil</sub>
 </p>
 
 <p align="center">
