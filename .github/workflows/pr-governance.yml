@@ -28,6 +28,7 @@ jobs:
 
           const branch = String(pr.head?.ref ?? '');
           const author = String(pr.user?.login ?? '');
+          const isGitHubWebPatchBranch = /^[\w.-]+-patch-\d+$/.test(branch);
           const isDependencyBot = pr.user?.type === 'Bot' && (
             (author === 'dependabot[bot]' && /^dependabot\/\S+$/.test(branch)) ||
             (author === 'renovate[bot]' && /^renovate\/\S+$/.test(branch))
@@ -40,11 +41,11 @@ jobs:
           const errors = [];
           const title = String(pr.title ?? '');
           const titlePattern = /^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\([^()\r\n]+\))?!?: \S[^\r\n]*$/;
-          if (!titlePattern.test(title) || /[\x00-\x1f\x7f]/.test(title)) {
+          if (!isGitHubWebPatchBranch && (!titlePattern.test(title) || /[\x00-\x1f\x7f]/.test(title))) {
             errors.push('Título inválido. Exemplo: fix(api): corrige validação de entrada.');
           }
           const branchPattern = /^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert|migration|hotfix|codex)\/\S+$/;
-          if (!branchPattern.test(branch)) {
+          if (!branchPattern.test(branch) && !isGitHubWebPatchBranch) {
             errors.push('Branch inválida. Use um prefixo permitido, como fix/123-corrige-validacao ou migration/java-2.0.');
           }
 
@@ -110,7 +111,7 @@ jobs:
               return false;
             }
           });
-          if (!linkedIssue) {
+          if (!linkedIssue && !isGitHubWebPatchBranch) {
             errors.push('Inclua uma linha Closes #123, Fixes #123 ou Resolves #123, ou a URL completa de uma issue deste repositório.');
           }
 
